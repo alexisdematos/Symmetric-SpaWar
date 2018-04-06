@@ -7,7 +7,7 @@ import xmlrpclib
 import datetime
 import sys
 
-url = "http://localhost:8080/RPC2"
+url = "http://localhost:8081/RPC2"
 proxy = xmlrpclib.ServerProxy(url)
 
 text = sys.argv[1]
