@@ -23,8 +23,30 @@ $(document).ready(function(){
 
 	
 	$("#translate").click(function(){
-		$("#textarea2").prop('disabled',true);
-		$("#textarea2").val($("#textarea").val());
+		$("#form10").prop('disabled',true);
+		if ($("#button2").hasClass("button_selected"))
+                {
+                  $.ajax({
+                        url: "trad_es_wix.php",
+                        type: "POST",
+                        context: document.body,
+                        data: {text: $("#form7").val()}
+                        }).done(function(data) { 
+                            $("#form10").val(data);
+                        });
+                }
+        	else
+		{
+                $.ajax({
+                        url: "trad_wix_es.php",
+                        type: "POST",
+                        context: document.body,
+                        data: {text: $("#form7").val()}
+                        }).done(function(data) { 
+                            $("#form10").val(data);
+                        });
+                }
+
 	});
 	
 	$("#corriger").click(function(){
