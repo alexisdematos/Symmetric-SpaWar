@@ -32,18 +32,19 @@ body{
 }
 
 #drapeau_esp{
-	float:right;
+	float:left;
 	width:30px;
 	height:30px;
-	margin-top:5px;
+	margin-top:20px;
+	margin-left:20px;
 }
 
 #drapeau_eng{
-	float:right;
+	float:left;
 	width:30px;
 	height:30px;
-	margin-top:5px;
-	margin-right:
+	margin-top:20px;
+	margin-left:20px;
 }
 
 #sous_entete{
