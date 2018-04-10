@@ -317,7 +317,7 @@ The username and password you entered do not match those in our files.<br> Pleas
           <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
           <a href="#"><i class="fa fa-pinterest fa-2x"></i></a>
           </div>
-Es un proyecto de estudiante de la Université Paris 13 gracias a la ayuda de Mager Hois, Jesús Manuel, Ivan Vladimir y Jorge García Flores.
+Es un proyecto de estudiantes de la Université Paris 13 gracias a la ayuda de Mager Hois, Jesús Manuel, Ivan Vladimir y Jorge García Flores.
 		<br>
 		Proyecto basado en el trabajo de Jesús Manuel Mager Hois <a href="http://turing.iimas.unam.mx/wix/">http://turing.iimas.unam.mx/wix/</a> 
         </div>
