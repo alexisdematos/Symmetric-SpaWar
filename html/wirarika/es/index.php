@@ -34,7 +34,7 @@
 <meta charset="UTF-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Wixarika Translator</title>
+<title>Traductor Wixarika</title>
 
 
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
@@ -42,32 +42,32 @@
 
 
 <!-- animate.css -->
-<link rel="stylesheet" href="assets/animate/animate.css" />
+<link rel="stylesheet" href="../assets/animate/animate.css" />
 
 
 
-<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/css/magnific-popup.css">
+<link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="../assets/css/magnific-popup.css">
 
 
 <!--For Plugins external css-->
-<link rel="stylesheet" href="assets/css/plugins.css" />
+<link rel="stylesheet" href="../assets/css/plugins.css" />
 
 <!--Theme custom css -->
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/style2.css">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/style2.css">
 
 <!--Theme Responsive css-->
-<link rel="stylesheet" href="assets/css/responsive.css" />
+<link rel="stylesheet" href="../assets/css/responsive.css" />
 
-<script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+<script src="../assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 <!-- favicon -->
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+<link rel="icon" href="../images/favicon.png" type="image/x-icon">
 
 
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="../assets/style.css">
 
 </head>
 
@@ -78,8 +78,8 @@
 
        <header id="main_menu" class="header navbar-fixed-top">            
                 <div class="main_menu_bg">
-				<a href="es/index.php"><img src="drapeau_esp.png" alt="drapeau espagnol" id="drapeau_esp"></a>
-				<a href="index.php"><img src="drapeau_eng.png" alt="drapeau anglais" id="drapeau_eng"></a>
+				<a href="index.php"><img src="../drapeau_esp.png" alt="drapeau espagnol" id="drapeau_esp"></a>
+				<a href="../index.php"><img src="../drapeau_eng.png" alt="drapeau anglais" id="drapeau_eng"></a>
                     <div class="container">
                         <div class="row">
                             <div class="nave_menu">
@@ -103,11 +103,11 @@
                                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                                             <ul class="nav navbar-nav navbar-right">
-                                                <li><a href="#home">HOME</a></li>
-                                                <li><a href="#traductor">TRANSLATOR</a></li>
-                                                <li><a href="#help">HELP</a></li>                                                
-                                                <li><a href="#about">ABOUT</a></li>
-												<li><a href="#admin">ADMINISTRATION</a></li>
+                                                <li><a href="#home">INICIO</a></li>
+                                                <li><a href="#traductor">TRADUCTOR</a></li>
+                                                <li><a href="#help">AYUDA</a></li>                                                
+                                                <li><a href="#about">INFORMACION</a></li>
+												<li><a href="#admin">ADMINISTRACION</a></li>
 											</ul>
                                         </div>
 
@@ -127,9 +127,9 @@
         <div class="ab-wrap">
         <div class="ab-center">
           <div class="wowload fadeInDown">
-          <img src="assets/images/logo.png" class="wowload rotateIn">
-          <h1 class="title">Wixarika Translator</h1>
-          <p>The Huichol language is an indigenous language of Mexico which belongs to the Uto-Aztecan language family.<br> It is spoken by the ethnic group widely known as the Huichol (self-designation Wixaritari).<br>
+          <img src="../assets/images/logo.png" class="wowload rotateIn">
+          <h1 class="title">Traductor Wixarika</h1>
+          <p>El huichol es una lengua de la familia utoazteca hablada en México por los huicholes,<br> que se llaman a sí mismos Wixarika y habitan en los estados mexicanos de Nayarit como grupo mayoritario,</br> Jalisco, Durango y Zacatecas.<br>
           </p>
           </div>
         </div>
@@ -146,15 +146,15 @@
     <div class="portfolio" id="traductor" >
       <div class="spacer">
         <div class="container">
-        <h2 class="text-center"><strong>Translator</strong></h2>
+        <h2 class="text-center"><strong>Traductor</strong></h2>
           
         <main>  
 			<div id="lesboutons">
 				<button id="button1" class="btn button_selected">
-				  Wixarika <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Spanish
+				  Wixarika <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Español
 				</button>
 				<button id="button2" class="btn  button">
-					Spanish <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Wixarika
+					Español <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Wixarika
 				</button>
 			  
 			
@@ -181,11 +181,11 @@
 			</div>
 			<div class="row">
 			<div class="col-md-6">
-            <button id="translate" type="button" class="btn btn-primary">Translate</button>
+            <button id="translate" type="button" class="btn btn-primary">Traducir</button>
 			</div>
 			<div class="col-md-6">
-			<button id="corriger" type="button" class="btn btn-warning">Correct</button>
-            <button id="valbtn"  type="button" class="btn btn-default" onclick="document.getElementById('texta').submit();" disabled>Validate the correction</button>            
+			<button id="corriger" type="button" class="btn btn-warning">Corregir</button>
+            <button id="valbtn"  type="button" class="btn btn-default" onclick="document.getElementById('texta').submit();" disabled>validar la corrección</button>            
 			</div>
 			</div>
  				<input type="text" name="langue" id="langue" value="wixspa" form="texta" style="visibility:hidden;"></input>
@@ -206,10 +206,10 @@
         <div class="row about-container">
 
           <div class="col-lg-6 content order-lg-2 order-1 text-center">
-            <h2 class="title ">HELP</h2>
+            <h2 class="title ">AYUDA</h2>
             <p>
-To use the translator, enter phrases in wixarika,<br> taking care to use the characters ', +, ts and x.</br>
-						To prove, we suggest some phrases:<br></br>
+Para usar el traductor introduzca frases en wixarika, cuidando usar los caracteres ',+,ts y x.<br>
+						Para probar, sugerimos algunas frases:<br></br>
 						<ul>
 						
 						<li>neki p+tuxa : mi casa blanca</li><br>
@@ -240,9 +240,9 @@ To use the translator, enter phrases in wixarika,<br> taking care to use the cha
         <div class="row about-container">
  <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
           <div class="col-lg-6 content order-lg-1 order-2">
-            <h2 class="title">Few Words About The Huichol</h2>
+            <h2 class="title">Algunas palabras sobre los huicholes</h2>
             <p>
-              The Huichol or Wixáritari (Huichol pronunciation: /wiˈraɾitaɾi/) are an indigenous people of Mexico living in the Sierra Madre Occidental range in the states of Nayarit, Jalisco, Zacatecas, and Durango. They are best known to the larger world as the Huichol, however, they refer to themselves as Wixáritari ("the people") in their native Huichol language. The adjectival form of Wixáritari and name for their own language is Wixárika.
+              Los wixárikas o wixáricas (huichol [viˈʐaɾika]~[viˈraɾika]), conocidos en español como huicholes, son un grupo mayoritario en Nayarit, México. Habitan el oeste central del país, en la Sierra Madre Occidental, principalmente en los estados de Nayarit, Jalisco y partes de Durango y Zacatecas. Se autodenominan wixárika (la gente) en su lengua, que pertenece a la familia de las lenguas uto-aztecas y a la que llaman wixaritari waniuki (en español, huichol o lengua huichola).
             </p>
 
 
@@ -266,8 +266,8 @@ To use the translator, enter phrases in wixarika,<br> taking care to use the cha
         <div class="row">
         <div class="col-lg-6 content order-lg-1 order-2">
                     
-            <h1><strong>Administration</strong></h1>
-            <h2>Check the modification</h2>
+            <h1><strong>Administracion</strong></h1>
+            <h2>Verifique las modificaciones</h2>
 			<?php 
 				 if(isset($_GET['error']))
 					 echo '	<div class="alert alert-warning">
@@ -285,7 +285,7 @@ The username and password you entered do not match those in our files.<br> Pleas
                 
                 <div class="form-group">
 					<div class="col-md-offset-0 col-md-8">
-						<input  class="btn btn-success btn btn-success" type="submit" value="Connexion"/>
+						<input  class="btn btn-success btn btn-success" type="submit" value="conexión"/>
 					</div>
 				</div>
             
@@ -317,9 +317,9 @@ The username and password you entered do not match those in our files.<br> Pleas
           <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
           <a href="#"><i class="fa fa-pinterest fa-2x"></i></a>
           </div>
-        It's a student project from Université Paris 13 thanks to the help of Mager Hois, Jesús Manuel, Ivan Vladimir and Jorge Garcia Flores.
+Es un proyecto de estudiante de la Université Paris 13 gracias a la ayuda de Mager Hois, Jesús Manuel, Ivan Vladimir y Jorge García Flores.
 		<br>
-		Project based on Jesús Manuel Mager Hois work <a href="http://turing.iimas.unam.mx/wix/">http://turing.iimas.unam.mx/wix/</a> 
+		Proyecto basado en el trabajo de Jesús Manuel Mager Hois <a href="http://turing.iimas.unam.mx/wix/">http://turing.iimas.unam.mx/wix/</a> 
         </div>
    </div>   
 </div>
@@ -330,24 +330,24 @@ The username and password you entered do not match those in our files.<br> Pleas
 <a href="#home" class="gototop scroll"><i class="fa fa-angle-up  fa-3x"></i></a>
 
 <!-- jquery -->
-<script src="assets/jquery.js"></script>
+<script src="../assets/jquery.js"></script>
 
 <!-- wow script -->
-<script src="assets/wow/wow.min.js"></script>
+<script src="../assets/wow/wow.min.js"></script>
 
 <!-- boostrap -->
-<script src="assets/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
+<script src="../assets/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
 
 <!-- jquery mobile -->
-<script src="assets/mobile/touchSwipe.min.js"></script>
-<script src="assets/respond/respond.js"></script>
-<script src="assets/js/jquery.magnific-popup.js"></script>
+<script src="../assets/mobile/touchSwipe.min.js"></script>
+<script src="../assets/respond/respond.js"></script>
+<script src="../assets/js/jquery.magnific-popup.js"></script>
  
 <!-- custom script -->
-<script src="assets/script.js"></script>
-<script src="assets/js/script.js"></script>
-<script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
+<script src="../assets/script.js"></script>
+<script src="../assets/js/script.js"></script>
+<script src="../assets/js/plugins.js"></script>
+        <script src="../assets/js/main.js"></script>
 
 
 </body>
